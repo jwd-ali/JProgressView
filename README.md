@@ -66,13 +66,13 @@ If you prefer not to use a dependency manager, you can integrate **JProgressView
 You need to simply initiate progressView with four colours if you want to customise colors  initiate  like this
 
 > ```swift
-var progessView = ProgressView() 
+> var progessView = ProgressView() 
 > ```
 
 **OR**
 
 > ```swift
->ProgressView(colors: [.black, .red, .green, .yellow])
+> ProgressView(colors: [.black, .red, .green, .yellow])
 > ```
 
 Then in which view you want to show progress call
