@@ -86,3 +86,20 @@ To stop and hide call
 > ```swift
 > progessView.stopAnimating()
 > ```
+
+For better understanding framework includes example project as well
+ 
+ Congratulations! You're done.
+
+
+
+
+## Contributing
+
+I’d love to have help on this project. For small changes please [open a pull request](https://github.com/jwd-ali/JProgressView/pulls), for larger changes please [open an issue](https://github.com/jwd-ali/JProgressView/issues) first to discuss what you’d like to see.
+
+
+License
+-------
+
+JProgressView is under [MIT](https://opensource.org/licenses/MIT). See [LICENSE](LICENSE) file for more info.
