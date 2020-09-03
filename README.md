@@ -72,7 +72,7 @@ You need to simply initiate progressView with four colours if you want to custom
 **OR**
 
 > ```swift
-> ProgressView(colors: [.black, .red, .green, .yellow])
+> var progessView = ProgressView(colors: [.black, .red, .green, .yellow])
 > ```
 
 Then in which view you want to show progress call
