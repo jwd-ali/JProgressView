@@ -47,8 +47,6 @@ open class ProgressView: UIView {
             layer.addSublayer(shape)
             shape.masksToBounds = true
         }
-        
-        
     }
     
     open override func layoutSubviews() {
