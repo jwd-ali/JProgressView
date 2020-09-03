@@ -1,7 +1,7 @@
 <img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/header/header.png">
 <img align="right" src="https://github.com/jwd-ali/ProgressView/blob/master/Images/ezgif.com-video-to-gif-29.gif"  height = "580"/>
 
-# ProgressView
+# JProgressView
 > Add Progress Animation in just 2 steps in your view
 
 [![CI Status](https://travis-ci.org/jwd-ali/RingPieChart.svg)](https://travis-ci.org/jwd-ali/RingPieChart)
@@ -26,3 +26,30 @@ ___
 
 - iOS 10.0+ / Mac OS X 10.9+ / watchOS 2.0+ / tvOS 9.0+
 - Xcode 8.0+
+
+
+## Installation
+
+### [CocoaPods](http://cocoapods.org)
+
+To integrate **JProgressView** into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+use_frameworks!
+
+pod 'JProgressView'
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
+### Manually
+
+If you prefer not to use a dependency manager, you can integrate **JProgressView** into your project manually.
+
+- Add sources into your project:
+  - Drag `ProgressView.swift` and `CALayer+Extension.swift`
+  
