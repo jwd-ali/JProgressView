@@ -21,20 +21,13 @@ open class ProgressView: UIView {
         }
     }
     
-    
     private lazy var shapesCollection = [shape1, shape2, shape3, shape4]
     
     convenience init(colors: [UIColor]) {
-        
         self.init(frame: .zero)
         
-        if colors.count < 4 {
-            fatalError("Please provide four colors to progress view")
-        }
-        
+        if colors.count < 4 {  fatalError("Please provide four colors to progress view")  }
         self.colors = colors
-        
-        
     }
     
     override init(frame: CGRect) {
@@ -49,6 +42,7 @@ open class ProgressView: UIView {
     
     private func controlDidLoad(){
         self.translatesAutoresizingMaskIntoConstraints = false
+        
         shapesCollection.forEach { (shape) in
             layer.addSublayer(shape)
             shape.masksToBounds = true
