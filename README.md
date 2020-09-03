@@ -10,3 +10,19 @@
 [![License](https://img.shields.io/cocoapods/l/RingPieChart.svg?style=flat)](https://cocoapods.org/pods/Drag3DRotateCard)
 [![Platform](https://img.shields.io/cocoapods/p/RingPieChart.svg?style=flat)](https://cocoapods.org/pods/Drag3DRotateCard)
 [![Swift 5.1](https://img.shields.io/badge/swift-5.1-orange)](https://swift.org)
+
+
+___
+
+<p> 
+  
+
+<a href="https://www.linkedin.com/in/jawad-ali-3804ab24/"><img src="https://i.imgur.com/vGjsQPt.png" width="134" height="34"></a>  
+
+</br></br>
+
+
+## Requirements
+
+- iOS 10.0+ / Mac OS X 10.9+ / watchOS 2.0+ / tvOS 9.0+
+- Xcode 8.0+
