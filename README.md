@@ -45,7 +45,13 @@ Then, run the following command:
 ```bash
 $ pod install
 ```
+### [Carthage](http://github.com/Carthage/Carthage)
 
+To integrate `JProgressView` into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+```ogdl
+github "jwd-ali/JProgressView"
+```
 ### Manually
 
 If you prefer not to use a dependency manager, you can integrate **JProgressView** into your project manually.
