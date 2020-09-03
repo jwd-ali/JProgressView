@@ -67,20 +67,22 @@ You need to simply initiate progressView with four colours if you want to custom
 
 > ```swift
 var progessView = ProgressView() 
+> ```
 
 **OR**
 
-ProgressView(colors: [.black, .red, .green, .yellow])
+> ```swift
+>ProgressView(colors: [.black, .red, .green, .yellow])
 > ```
 
 Then in which view you want to show progress call
 
 > ```swift
-progessView.StartAnimating(in: self.view)
+>progessView.StartAnimating(in: self.view)
 > ```
 
 To stop and hide call
 
 > ```swift
- progessView.stopAnimating()
+> progessView.stopAnimating()
 > ```
