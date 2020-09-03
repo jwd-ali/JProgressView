@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-  s.name         = "ProgressView"
+  s.name         = "JDProgressView"
   s.version      = "1.0.0"
   s.summary      = "ProgressView framework"
   s.description  = <<-DESC
