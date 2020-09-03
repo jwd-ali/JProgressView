@@ -52,4 +52,35 @@ If you prefer not to use a dependency manager, you can integrate **JProgressView
 
 - Add sources into your project:
   - Drag `ProgressView.swift` and `CALayer+Extension.swift`
+
+  ## Usage
   
+> If you are using any dependency manager (pods , carthage , package manager)to integrate JProgressView. Import ProgressView first:
+> ```swift
+> import ProgressView
+> ```
+
+> And for Manuall install you dont need to import anything 
+
+
+You need to simply initiate progressView with four colours if you want to customise colors  initiate  like this
+
+> ```swift
+var progessView = ProgressView() 
+
+**OR**
+
+ProgressView(colors: [.black, .red, .green, .yellow])
+> ```
+
+Then in which view you want to show progress call
+
+> ```swift
+progessView.StartAnimating(in: self.view)
+> ```
+
+To stop and hide call
+
+> ```swift
+ progessView.stopAnimating()
+> ```
