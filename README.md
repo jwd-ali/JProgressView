@@ -1,5 +1,5 @@
 <img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/header/header.png">
-<img align="right" src="https://github.com/jwd-ali/ProgressView/blob/master/Images/ezgif.com-video-to-gif-29.gif"  width = "380"/>
+<img align="right" src="https://github.com/jwd-ali/ProgressView/blob/master/Images/ezgif.com-video-to-gif-29.gif"  width = "420"/>
 
 # JProgressView
 > Add Progress Animation in just 2 steps in your view
