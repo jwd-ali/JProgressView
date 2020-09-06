@@ -126,7 +126,7 @@ public extension CALayer {
         rotationAnimation.repeatCount = .infinity
         rotationAnimation.values = angels 
         rotationAnimation.keyTimes = [0,0.25,0.5, 0.75,1]
-        
+        rotationAnimation.timingFunctions = [CAMediaTimingFunction(name: .linear),CAMediaTimingFunction(name: .easeOut),CAMediaTimingFunction(name: .easeInEaseOut),CAMediaTimingFunction(name: .easeInEaseOut),CAMediaTimingFunction(name: .linear)]
         
         self.add(rotationAnimation, forKey: "transform.rotation.z")
         

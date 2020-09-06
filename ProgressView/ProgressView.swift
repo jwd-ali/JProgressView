@@ -128,7 +128,7 @@ open class ProgressView: UIView {
             shape.animatePosition(point: CGPoint(x: allBounds[index].midX, y: allBounds[index].midY), duration: duration)
         }
         
-        self.layer.rotationAnimation(angels: [0,-100.degreesToRadians,0,100.degreesToRadians,0], duration: duration * 4)
+        self.layer.rotationAnimation(angels: [0,-110.degreesToRadians,0,110.degreesToRadians,0], duration: duration * 4)
     }
     
     
